@@ -47,6 +47,5 @@ public function editPost(Post $post, Request $request){
     return redirect('/');
     }
 
-    //terest dadf
 
 }
