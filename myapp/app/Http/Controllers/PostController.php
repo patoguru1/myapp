@@ -25,7 +25,7 @@ class PostController extends Controller
        public function showEditScreen(Post $post) {
 
         return view ('edit-post',['post'=>$post]);
-        //
+        //pull request
         }
 
         
