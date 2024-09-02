@@ -26,6 +26,7 @@ class PostController extends Controller
 
         return view ('edit-post',['post'=>$post]);
         //pull request
+        //
         }
 
         
