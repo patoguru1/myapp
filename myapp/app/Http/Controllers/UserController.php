@@ -33,7 +33,7 @@ class UserController extends Controller
             'password' => 'required',
         ]);
        // return 'hello';
-       //t
+       // new text
        $incomingFields['password'] = bcrypt($incomingFields['password']);
      $user=User::create($incomingFields);
       auth()->login($user);
