@@ -34,6 +34,8 @@ class UserController extends Controller
         ]);
        // return 'hello';
        // new text
+       //
+       // 4ht
        $incomingFields['password'] = bcrypt($incomingFields['password']);
      $user=User::create($incomingFields);
       auth()->login($user);
